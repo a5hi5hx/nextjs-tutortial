@@ -10,7 +10,7 @@ const AboutMe: React.FC = () => {
             </Head>
             <div className={styles.content}>
                 <h1>About Me</h1>
-                <p>I am a passionate web developer with a love for creating beautiful and functional websites.</p>
+                <p>I am a passionate Full STACK Web and Android Developer with a love for creating beautiful and functional websites.</p>
                 <p>My skills include HTML, CSS, JavaScript, React, and more.</p>
                 <p>Feel free to contact me if you have any questions or project inquiries!</p>
             </div>

@@ -1,15 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
 
-const Profile: React.FC = () => {
+const Projects: React.FC = () => {
     return (
         <div>
             <Head>
                 <title>Database page</title>
             </Head>
             <div>
-                <h1>This is my profile page</h1>
-                <p>Loading Profiles............................</p>
+                <h1>DProjects Page</h1>
+                <p>Loading Projects............................</p>
                 <p></p>
                 <p>Feel free to contact if you encounter any <b>ERROR</b></p> 
             </div>
@@ -17,4 +17,4 @@ const Profile: React.FC = () => {
     );
 };
 
-export default Profile;
+export default Projects;

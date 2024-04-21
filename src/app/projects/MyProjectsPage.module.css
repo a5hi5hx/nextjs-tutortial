@@ -1,0 +1,113 @@
+.container {
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectBox {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projectBox:hover {
+    transform: translateY(-5px);
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.projectContent {
+    text-align: left;
+}
+
+.projectTechnologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.technology {
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.projectTitle {
+    margin-bottom: 10px;
+}
+
+.projectDescription {
+    margin-bottom: 20px;
+}
+
+.githubLink {
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease; /* Added transition for color change */
+}
+
+.githubLink:hover {
+    color: #007bff; /* Changed color on hover */
+}
+
+.githubLink::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #007bff;
+    animation: shine 1s infinite linear;
+}
+
+.link {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: translateY(-3px);
+}
+
+@keyframes shine {
+    0% {
+        left: -50%;
+    }
+    50% {
+        left: 150%;
+    }
+    100% {
+        left: 150%;
+    }
+}

@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a simple Next.js for portofolio page. Developed while learning Next.js. You can use this freely citing the username. Cheerssssssssss.......
 
 ## Getting Started
 

@@ -7,7 +7,7 @@ export default function Page() {
  
   return (
     <button type="button" onClick={() => router.push('/about')}>
-      Dashboard
+      HEllo World
     </button>
   )
 }

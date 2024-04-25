@@ -47,6 +47,7 @@ export default function RootLayout({
                         <p>Address: 123 Main St, City, Country</p>
                     </div>
                 </div>
+                
                 <p className="footer-text">&copy; {new Date().getFullYear()} a5hi5hx. All rights reserved.</p>
             </footer>
         </body>

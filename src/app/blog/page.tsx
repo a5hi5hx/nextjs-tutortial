@@ -1,4 +1,4 @@
-
+'use client'
 import React from 'react';
 import Head from 'next/head';
 
@@ -7,8 +7,7 @@ const NepalBlog: React.FC = () => {
         <div className="container">
             <Head>
                 <title>Blog About Nepal</title>
-                <meta name="description" content="Discover the beauty of Nepal through our blog posts." />
-                <style jsx>{`
+                <style >
                     /* CSS styles using JSX */
                     .container {
                         max-width: 800px;
@@ -34,7 +33,7 @@ const NepalBlog: React.FC = () => {
                         font-size: 18px;
                         line-height: 1.5;
                     }
-                `}</style>
+                </style>
             </Head>
             <main>
                 <h1>Blog About Nepal</h1>
